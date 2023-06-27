@@ -1,0 +1,66 @@
+Program,Vendor,Citrix Access,Restricted To:,Purchase Dept(s),Seat(s) Purchased,License Type,License Configuration,Account Auth,Acceptable Use Policy,Install Files | Account Creation,Installation Notes,CU Contact,Vendor/Version History,Vendor Contact,Expiration
+Abaqus - Research,SIMULIA,No,No Restrictions,DeptName,9,Network,,No,Academic Research Only,,"Note that you need to set permissions as documented here: https://www.goengineer.com/blog/fix-abaqus-cae-ioerror-permission-denied. Once installed, edit the respective files on destination machines by changing 'TEACHING' to 'RESEARCH'. See example 'custom_v6.env' file in group documentation research folder. The default locations for the license file in each version are:
+
+2022: 
+C:/SIMULIA/EstProducts/2022/win_b64/SMA/site/EstablishProductConfig.ini
+
+2020:
+C:/SIMULIA/EstProducts/2020/win_b64/SMA/site/custom_v6.env
+
+2016-2019 (2016 shown, other versions analogous):
+Program files/dassault systemes/SimulationServices/V6R2016x/win_b24/SMA/site/custom_v6.env
+
+6.14:
+Simulia/Abaqus/6.14-4/SMA/site/abaqus_v6.env",,,,8/1/2023
+Abaqus - Teaching,SIMULIA,Yes,No Restrictions,,29,Network,,No,Teaching and Coursework,,"%23Citrix
+As of 4/19/2023 - Versions 2020 and 6.14 are in Citrix for Abaqus teaching. 
+
+%23 Local Installations
+TEACHING is the default config in license config file custom_v6.env or EstablishProductConfig.ini. Note that you need to set permissions as documented here: https://www.goengineer.com/blog/fix-abaqus-cae-ioerror-permission-denied",,,,
+ANSYS,ANSYS,Yes,No Restrictions,,50 Research/500 Teaching,Network,,No,Teaching and Research,,"Note that some packages of ANSYS may not use the FlexLM license even though the base Ansys installation requires this configuration (e.g., Ansys Motorcad will not authenticate to the license servers using FlexLM; must use Ansys config)",,,,
+ArcGIS,ESRI,Yes,No Restrictions,,Unknown,Network,,No,Teaching and Coursework,,"The install initially tries to get you to log into an account, so you have to click ""Configure Licensing"" -> select ""Concurrent License"" from the dropdown -> enter in the license server in the ""License Manager"" box -> select the ""Advanced"" tab. There should be a checkmark by ArcGIS Pro in that tab.",,,,
+Carsim,Mechanical Simulation,No,Site,,20,Network,,No,Teaching and Coursework,,Teaching ONLY. No research use at all.,,,,
+ChemDraw,PerkinElmer,No,Site,,Unlimited,Local Key,,No,Teaching and Research,,Register with PerkinElmer and they send you a license key. This license key is the same key they give to everyone at Clemson.,,,,8/1/2023
+COMSOL Teaching,Comsol Multiphysics,Yes,Site,,60 Class Kit Seats,Network,,No,Teaching and Coursework,,Teaching and Research licenses use different port@server addresses. Teaching and Research license do not contain the exact same modules/toolboxes. ,,,,
+EES,F-Chart Software,Group-restricted,ME Faculty and Students,,Unlimited,Local Key,,No,Teaching and Coursework,,"There is a license file for this ""keyed"" version, but no license keys are notated on Group drive. Cannot be installed on personal computers.",,,,
+Hyperworks,Altair,No,AuE,,,Network,,No,"Teaching, Coursework, and Research",,Installation/use of software restricted to AuE or for explicit use of students as approved by AuE faculty or involvement in courses including but not limited to AuE 8550,,,,
+Labview,National Instruments,Yes,No Restrictions,,50,Network,,No,Teaching and Research,,,,,,
+Maple,MapleSoft,Yes,Site,,250,Network,,No,Teaching and Research,,Cannot be installed on personal computers. Students must access via Citrix. Can only be installed on institutional computers.,,,,
+Materials Studio  - Teaching,BIOVIA,No,Restrictions Exist; see License Config,,30,Network,,No,Teaching and Coursework,,,,,,
+Materials Studio - Research,BIOVIA,No,Restrictions Exist; see License Config,,,Network,,No,Academic Research,,,,,,
+Mathcad,CREO / PTC Inc,Yes,No Restrictions,,30,Network,,No,"Teaching, Coursework, and Research",,"Mathcad Prime 2.0 is current version. Older intallations of Mathcad (e.g., Mathcad 15) would have used different file types, which can be converted IF Mathcad 15 is installed on the client using the software suite file converter. ",,,,
+Mathematica - Network,Wolfram,No,Purchasing Dept (with exceptions),,30,Network,,No,Teaching and Coursework,,,,,,
+Mathematica - Offline,Wolfram,No,Purchasing Dept (no exceptions),,15,Local Key,,No,Teaching and Coursework,,"Some ""Home use"" or standalone licenses available, but very strict in giving them out. ",,,,
+Matlab - Multi User (lab),Mathworks,Yes,No Restrictions,,Unlimited,Network,,Yes,Teaching and Research,,"Preferrred use is in Citrix. Single-user computers must self-install with the key from their online Mathworks account. *The Network Concurrent license - keyed  installation - should only be used on multi-user computers, ie, lecturns, teaching or research labs. This install method requires the license.dat file",,,,
+Matlab - Single User,Mathworks,Yes,No Restrictions,,Unlimited,Local Key,,Yes,Teaching and Research,,"Preferrred use is in Citrix. Single-user computers must self-install with the key from their online Mathworks account. *The Network Concurrent license - keyed  installation - should only be used on multi-user computers, ie, lecturns, teaching or research labs. This install method requires the license.dat file",,,,
+Microsoft Visio,Microsoft,Group-restricted,,,,Cloud and Local,,Yes,Teaching and Coursework,,"Visio is freely available to students for teaching purposes via the Azure Dev Tools for Teaching. Any other use requires a paid for license. The ""online"" version of Visio requires a subcription license linked to your Azure AD account, renewed annually around August. See https://hdkb.clemson.edu/phpkb/article.php?id=897",,,,
+Minitab,Minitab,Group-restricted,,,Unlimited,Cloud and Local,,Yes,,,"Accounts must be manually provisioned by CECAS Licensing admins first at licensing.minitab.com. After this, all users will get a welcome email which they will need to follow to log into their Minitab.com accounts. Once logged in here, user can self-install on Windows and sign-in to authenticate the software. Additional download/install instructions for software located in the prior link. Note: Mac is not supported so users may use Citrix or access via app.minitab.com. See https://ccit.clemson.edu/support/kb/?id=401 for additional documentation. ",,,,
+modeFrontier,ESTECO SpA,No,ME Faculty and Students,,,Network,,No,,,Please verify if student is in ME or an otherwise approved department before installing.,,,,
+Plaxis,Bentley,No,No Restrictions,,5-10 (unclear),Cloud,,Yes,Teaching and Research,,"Must register with Bentley.com with @clemson.edu address. Should auto link with our license. All Bentley users should be able to license Plaxis, but they do not, by default, get access to download Plaxis themselves. Have to be added to a special group on Bentley.com.",,,,6/30/2024
+PSSE,Siemens,No,ECE,,,Network,,No,,,"Run the Install_PSSE.bat file to install.  Make sure you select ALL components. Only version 35 is supported by the license server.   To license open ""CodeMEter Control Center"". Click WebAdmin and then select Configuration->Basic->Server Search list, add  and click apply.  Go back to CodeMeter Control and click Process -> Restart CodeMeter Service and you will be able to run the software.  Must be on ETHERNET or VPN to run! PSSE software will NOT display an error if it fails to check out a license, dit will just silently quit and you'll see nothing.  Probably a license issue. ",,,,
+Solidworks EDU,Solidworks,Yes,No Restrictions,,500,Network,,No,Teaching and Coursework,,"This EDU license can only be used for teaching/classwork NOT research. 
+
+	* serial number used for all versions unless otherwise stated here.
+
+License Server:  28021@license4.clemson.edu (SolidWorks)
+
+Home Editions of Windows operating systems are not supported with Solidworks
+BootCamp Windows installations are not offically supported by Solidworks
+
+Ref: http://www.solidworks.com/sw/support/SystemRequirements.html",,,,8/1/2023
+COMSOL Research,COMSOL Multiphysics,Yes,No Restrictions w/ Seat Limits,,13,Network,,No,Academic Research Only,,Teaching versus research licenses use different network servers - see appropriate entry for use case,,,,
+Digimat,Hexagon,Group-restricted,AuE ,,,Network,,No,Teaching and Coursework,,"This software is intended only for Dr. Pilla's AuE-6930 course. Course enrollment should be verified through CUICAR staff, and access can be provisioned in Citrix through the Central group digimat_cuapps. Owners of this Central group exist both on main campus and at CUICAR. ",,,,
+CYME,Eaton,No,,,1,Network,,No,Academic Research Only,,"Once CYME is installed, run the CYME license manager. Potentially need to run diagnostics within the CYME license manager to install the required driver. In the Admin tab, enter and verify that the port section says ",,,,
+Arena - Research,Rockwell Automation,Group-restricted,IE Majors,,36,Network,,No,Teaching and Research,,"Citrix should be used primarily for research requests, and students in IE by default should be able to access this research version in Citrix desktop VMs IE MADS Lab or IE Windows 10. Local installations of the research version is restricted by faculty in IE. ",,,,
+AVL Concerto,AVL,Group-restricted,AuE,,,Network,,No,Teaching and Coursework,,"For Citrix use, this software is restricted in Central by the group `citrix_concerto`",,,,
+ETABS,CSI America Inc,Yes,No restrictions,,20,Network,,No,Teaching and Research,,,,,,
+SAP2000,CSI America Inc,Yes,No restriction,,30,Network,,No,Teaching and Research,,,,,,
+Arena - Student,Rockwell Software,Group-restricted,IE Majors,,,Local Key,,,,,,,,,
+Origin,OriginLab,No,Purchaser,,,Local Key,,No,"Teaching, Coursework, and Research",,License Key provided upon purchase made directly on web: https://www.originlab.com/,,,,
+AMPL - Research,ampl.com,Group-restricted,IE Majors,,10,Network,,No,Academic Research Only,,Extact .zip file to bin directory of choice and add directory path to the system PATH,,,,2/28/2023
+aspenONE,Aspen Technology,Group-restricted,Chemical Engineering,,,Network,,No,Teaching and Coursework,,Aspen HSYS and Aspen Plus are both available in Citrix. ,,,,
+AutoCAD,Autodesk,Yes,No Restrictions,,,Local Key,,No,"Teaching, Coursework, and Research",,,,,,
+ETAP,"ETAP/Operation Technology, Inc.",No,EIC - CURI Campus,,1,Network,,No,Commercial Research Only,,Restricted ,,,,12/15/2023
+Ansys Lumerical,Ansys (Acquired from Lumerical Inc.),No,Site - Group Limited,,5,Network,,No,Academic Research Only,,,,,,6/28/2023
+Ansys - Zemax OpticStudio,Ansys (acquired from Zemax LLC),No,Site - Group Limited,,"Unknown, probably matching Ansys",Network,,No,"Teaching, Coursework, and Research",,,,,,
+NX,Siemens,Group-restricted,AUE,,,Network,,No,"Teaching, Coursework, and Research",,"For R drive and Citrix use, this software is restricted in Central by the group `software_Siemens_ZFS`",,,,
